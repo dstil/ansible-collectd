@@ -4,6 +4,7 @@
   apt_repository: >
     repo={{ collectd_ppa_source }}
     update_cache=yes
+  when: collectd_ppa_source
 
 - name: collectd-install | Install specific collectd package
   apt: >
