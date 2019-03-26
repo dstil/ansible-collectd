@@ -1,3 +1,7 @@
+# DEPRECATION NOTICE
+
+We have moved away from Ansible and are in the process of removing or transferring ownership of our Ansible repositories. If you rely on this repository directly, please make arrangements to replace this dependency with your own fork.
+
 Stouts.collectd
 ==========
 
